@@ -4,7 +4,7 @@
 
 
 - This template was created to support the deployment of a Public Azure Load Balancer in front of 2 Palo Alto Networks Firewalls.  It supports the following features:
-- The 2 firewalls deploys with 4 interfaces.  1 MGMT and 3 data plane. 
+- The 2 firewalls deploys with 4-8 interfaces.  1 MGMT and 3-7 data planes. 
 - Static IP addresses are assigned to the interfaces based on the input in the starting ip address fields.
 - This template deloys into existing VNETs and storage accounts within the same region.  As a result, the storage account and VNET must be created before deploying this template.
 
@@ -21,6 +21,9 @@
                     -Standard_A4
                     -Standard_DS3_v2
                     -Standard_DS4_v2
-                    
+        -The following VMs Licenses:
+                    -Byol
+                    -Bundle1
+                    -Bundle2
                     
         NOTE: Make sure the VMs are supported in the specific Storage Account Type and Azure Region.
