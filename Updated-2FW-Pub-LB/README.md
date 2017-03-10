@@ -1,6 +1,6 @@
 # Azure-2-Firewalls-Public-Load-Balancer
 
-[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/kytx42/Azure/blob/master/Updated-2FW-Pub-LB/UpdatedazureDeploy.json)
+[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/kytx42/Azure/Updated-2FW-Pub-LB/UpdatedazureDeploy.json)
 
 
 - This template was created to support the deployment of a Public Azure Load Balancer in front of 2 Palo Alto Networks Firewalls.  It supports the following features:
