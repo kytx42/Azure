@@ -51,6 +51,17 @@
       },
       "defaultValue": "fwVNET"
     },
+    "license": { 
+      "type": "string",
+        "allowedValues": [
+          "Byol",
+          "bundle1",
+          "bundle2"
+      "metadata": {
+        "description": "License Version"
+      },
+      "defaultValue": "bundle2"
+    },
     "virtualNetworkAddressPrefix": {
       "type": "string",
       "defaultValue": "192.168.0.0/16",
