@@ -233,10 +233,10 @@
   "variables": {
     "apiVersion": "2015-06-15",
     "imagePublisher": "paloaltonetworks",
-    "imageSku" : "bundle2",
+    "imageSku": "bundle2",
     "imageOffer": "vmseries1",
     "imageVersion": "7.1.8"
-    "nsgName" : "DefaultNSG",
+    "nsgName": "DefaultNSG",
     "nicName": "[concat(parameters('vmName'), '-eth')]",
     "FW2nicName": "[concat(parameters('FW2vmName'), '-eth')]",
     "FWPrivateIPAddressUntrust": "[parameters('subnet1StartAddress')]",
