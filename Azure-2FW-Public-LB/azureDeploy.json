@@ -234,7 +234,7 @@
     "apiVersion": "2015-06-15",
     "imagePublisher": "paloaltonetworks",
     "imageSku" : "bundle2",
-    "imageOffer" : "vmseries1",
+    "imageOffer": "vmseries1",
     "imageVersion": "7.1.8"
     "nsgName" : "DefaultNSG",
     "nicName": "[concat(parameters('vmName'), '-eth')]",
