@@ -1,7 +1,7 @@
 # Azure-2-Firewalls-Public-Load-Balancer
 
-[<img src="http://azuredeploy.net/deploybutton.png"/>]
-(https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fkytx42%2FAzure%2Fmaster%2FAzure-2FW-Public-LB%2FazureDeploy.json)
+[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fkytx42%2FAzure%2Fmaster%2FAzure-2FW-Public-LB%2FazureDeploy.json)
+
 
 - This template was created to support the deployment of a Public Azure Load Balancer in front of 2 Palo Alto Networks Firewalls.  It supports the following features:
 - The 2 firewalls deploys with 4-8 interfaces.  1 MGMT and 3-7 data plane. 
