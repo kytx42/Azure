@@ -22,7 +22,7 @@
                     -Standard_DS3_v2
                     -Standard_DS4_v2
         -The following VMs Licenses:
-             	    -Byol
+             	      -Byol
                     -Bundle1
                     -Bundle2
   	-The following PAN OS Options:
