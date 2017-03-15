@@ -32,7 +32,7 @@
        },
        "defaultValue": "Standard_D4_v2"
     },
-    "OSversion": {
+    "imageVersion": {
        "type": "string",
        "allowedValues": [
           "7.1.7",
@@ -40,7 +40,7 @@
           "latest",
        ],
        "metadata": {
-          "description": "Firewall OS Version"
+          "description": "PAN OS Version"
        },
        "defaultValue": "7.1.8"
     },
