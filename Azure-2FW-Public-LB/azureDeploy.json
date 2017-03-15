@@ -235,6 +235,7 @@
     "imagePublisher": "paloaltonetworks",
     "imageSku" : "bundle2",
     "imageOffer" : "vmseries1",
+    "imageVersion": "7.1.8"
     "nsgName" : "DefaultNSG",
     "nicName": "[concat(parameters('vmName'), '-eth')]",
     "FW2nicName": "[concat(parameters('FW2vmName'), '-eth')]",
@@ -658,6 +659,7 @@
            "name": "[variables('imageSku')]",
            "product": "[variables('imageOffer')]",
            "publisher": "[variables('imagePublisher')]"
+           "version": "[variables('imageVersion')]"
         },
         "properties": {
           "availabilitySet": {
@@ -676,7 +678,7 @@
                     "publisher": "[variables('imagePublisher')]",
                     "offer": "[variables('imageOffer')]",
                     "sku": "[variables('imageSku')]",
-                    "version": "7.1.8"
+                    "version": "latest"
                 },
                 "osDisk": {
                     "name": "osdisk",
@@ -729,6 +731,7 @@
            "name": "[variables('imageSku')]",
            "product": "[variables('imageOffer')]",
            "publisher": "[variables('imagePublisher')]"
+           "version": "[variables('imageVersion')]"
         },
         "properties": {
           "availabilitySet": {
@@ -747,7 +750,7 @@
                     "publisher": "[variables('imagePublisher')]",
                     "offer": "[variables('imageOffer')]",
                     "sku": "[variables('imageSku')]",
-                    "version": "7.1.8"
+                    "version": "latest"
                 },
                 "osDisk": {
                     "name": "osdisk",
