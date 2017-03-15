@@ -730,7 +730,7 @@
         "plan": {
            "name": "[variables('imageSku')]",
            "product": "[variables('imageOffer')]",
-           "publisher": "[variables('imagePublisher')]"
+           "publisher": "[variables('imagePublisher')]",
            "version": "[variables('imageVersion')]"
         },
         "properties": {
