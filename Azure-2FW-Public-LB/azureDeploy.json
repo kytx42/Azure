@@ -681,8 +681,7 @@
         "plan": {
            "name": "[variables('imageSku')]",
            "product": "[variables('imageOffer')]",
-           "publisher": "[variables('imagePublisher')]",
-           "imageVersion": "[parameters('imageVersion')]"
+           "publisher": "[variables('imagePublisher')]"
         },
         "properties": {
           "availabilitySet": {
@@ -701,7 +700,7 @@
                     "publisher": "[variables('imagePublisher')]",
                     "offer": "[variables('imageOffer')]",
                     "sku": "[variables('imageSku')]",
-                    "version": "latest"
+                    "version": "[parameters('imageVersion')]"
                 },
                 "osDisk": {
                     "name": "osdisk",
@@ -753,8 +752,7 @@
         "plan": {
            "name": "[variables('imageSku')]",
            "product": "[variables('imageOffer')]",
-           "publisher": "[variables('imagePublisher')]",
-           "imageVersion": "[parameters('imageVersion')]"
+           "publisher": "[variables('imagePublisher')]"
         },
         "properties": {
           "availabilitySet": {
@@ -773,7 +771,7 @@
                     "publisher": "[variables('imagePublisher')]",
                     "offer": "[variables('imageOffer')]",
                     "sku": "[variables('imageSku')]",
-                    "version": "latest"
+                    "version": "[parameters('imageVersion')]"
                 },
                 "osDisk": {
                     "name": "osdisk",
