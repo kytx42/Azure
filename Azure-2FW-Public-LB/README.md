@@ -25,9 +25,10 @@
              	      -Byol
                     -Bundle1
                     -Bundle2
-  	-The following PAN OS Options:
+                    -The following PAN OS Options:
                     -Latest
-                    -7.1.0           
+                    -7.1.0 
+  	          
                     
         NOTE: Make sure the VMs are supported in the specific Storage Account Type and Azure Region.
                     
