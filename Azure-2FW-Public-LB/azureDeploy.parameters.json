@@ -35,21 +35,20 @@
     "imageVersion": {
        "type": "string",
        "allowedValues": [
-          "7.1.7",
-          "7.1.8",
-          "latest",
+          "7.1.0",
+          "latest"
        ],
        "metadata": {
           "description": "PAN OS Version"
        },
-       "defaultValue": "7.1.8"
+       "defaultValue": "7.1.0"
     },
     "imageSku": {
        "type": "string",
        "allowedValues": [
           "byol",
           "bundle1",
-          "bundle2",
+          "bundle2"
        ],
        "metadata": {
           "description": "Firewall License Model"
