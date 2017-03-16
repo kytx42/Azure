@@ -35,13 +35,13 @@
     "imageVersion": {
        "type": "string",
        "allowedValues": [
-          "7.1.0",
+          "7.1.1",
           "latest"
        ],
        "metadata": {
           "description": "PAN OS Version"
        },
-       "defaultValue": "7.1.0"
+       "defaultValue": "7.1.1"
     },
     "imageSku": {
        "type": "string",
