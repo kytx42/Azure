@@ -30,6 +30,6 @@
                     -7.1.0
                     
                     
-  NOTE: Make sure the VMs are supported in the specific Storage Account Type and Azure Region.
+         NOTE: Make sure the VMs are supported in the specific Storage Account Type and Azure Region.
                     
         NOTE: Make sure the VMs are supported in the specific Storage Account Type and Azure Region.
