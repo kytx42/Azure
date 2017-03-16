@@ -700,7 +700,7 @@
                     "publisher": "[variables('imagePublisher')]",
                     "offer": "[variables('imageOffer')]",
                     "sku": "[variables('imageSku')]",
-                    "version": "latest"
+                    "version": "[variables('imageVersion')]"
                 },
                 "osDisk": {
                     "name": "osdisk",
@@ -771,7 +771,7 @@
                     "publisher": "[variables('imagePublisher')]",
                     "offer": "[variables('imageOffer')]",
                     "sku": "[variables('imageSku')]",
-                    "version": "latest"
+                    "version": "[variables('imageVersion')]"
                 },
                 "osDisk": {
                     "name": "osdisk",
