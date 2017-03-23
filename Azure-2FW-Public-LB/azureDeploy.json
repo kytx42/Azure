@@ -80,7 +80,7 @@
        "metadata": {
           "description": "Firewall License Model"
        },
-       "defaultValue": "bundle2"
+       "defaultValue": "byol"
     },
     "virtualNetworkName": { 
       "type": "string",
@@ -256,7 +256,7 @@
   "variables": {
     "apiVersion": "2015-06-15",
     "imagePublisher": "paloaltonetworks",
-    "imageSku": "bundle2",
+    "imageSku": "[parameters('imageSku')]",
     "imageOffer": "vmseries1",
     "imageVersion": "[parameters('imageVersion')]", 
     "nsgName": "DefaultNSG",
