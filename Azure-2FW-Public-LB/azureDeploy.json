@@ -68,7 +68,7 @@
        "metadata": {
           "description": "PAN OS Version"
        },
-       "defaultValue": "7.1.1"
+       "defaultValue": "7.1.14"
     },
     "imageSku": {
        "type": "string",
